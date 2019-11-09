@@ -1,0 +1,153 @@
+button1{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    padding: 10px;
+}
+.btnst{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    padding: 10px;
+    border-style: hidden;
+}
+
+button2{
+    background-color: #FFA31A;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;   
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 36px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 22px;
+}
+
+p1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 22px;
+    top: 100px;
+}
+
+h2{
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+canvas{
+    width: 400px;
+    height: 400px;
+    background: white;
+    top: 130px;
+    border-color: black;
+}
+
+params{
+    width: 260px;
+    height: 200px;
+    background: white;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+
+.topleft {
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+
+.topright{
+    position: absolute;
+    top: 25px;
+    right: 50px;
+}
+
+.container {
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #FFA31A;
+    border-radius: 50%;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 7px;
+      left: 7px;
+      width: 12px;
+      height: 12px;
+      border-radius: 70%;
+      background: black;
+  }
+  /* Thick red border */
+hr.new4 {
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 0;
+    margin-top: 65px;
+}
+
+.do:visited{
+    color: white;
+    text-decoration: none;
+}
+.do{
+    color: white;
+    text-decoration: none;
+}

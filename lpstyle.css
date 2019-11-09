@@ -1,0 +1,95 @@
+img{
+    width:160px;
+    height:145px;
+}
+
+heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #FFA31A;
+    font-size: 36px;
+}
+
+button1{
+    background-color: #FFA31A;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+button2{
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+    padding: 20px;
+    top: 450px;
+    position: absolute;
+}
+
+.topright{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+frm{
+    width: 250px;
+    height: 330px;
+    background: #FFA31A;
+    border-radius: 15px;
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+}
+
+hr.new4 {
+    border: 2px solid white;
+    width: 18%;
+    top: 250px;
+    position: absolute;
+}
+
+text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 25px;
+    top: 220px;
+    position: absolute;
+}
+
+qwstn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 25px;
+    top: 300px;
+    position: absolute;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+}
+
+a:hover {
+    color: black;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: black;
+    background-color: transparent;
+}
+
+.do:visited{
+    color: white;
+    text-decoration: none;
+}
+.do{
+    color: white;
+    text-decoration: none;
+}
